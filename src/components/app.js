@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Booklist from "../contnainers/book-list.js";
-import BookDetail from "../contnainers/book-detail";
+import ItemDetail from "../contnainers/item-detail";
 export default class App extends Component {
   render() {
     return (
       <div>
         <Booklist />
-        <BookDetail />
+        <ItemDetail />
       </div>
     );
   }
